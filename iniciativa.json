@@ -1,0 +1,13 @@
+{
+  "línea_de_acción": "Educación Continua",
+  "iniciativa": "Curso de Desarrollo Web",
+  "modalidad": "Virtual",
+  "fecha_de_inicio": "2024-01-15",
+  "fecha_de_fin": "2024-03-30",
+  "año_cohorte": 2024,
+  "horas_de_la_iniciativa": 120,
+  "estado_general": 85,
+  "duplica_curso": true,
+  "equipo_responsable": "Equipo de Innovación Educativa",
+  "promedio_de_asistencia_para_aprobación": 75
+}
