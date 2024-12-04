@@ -1,0 +1,55 @@
+{
+  "cc_beneficiario": "1234567890",
+  "nombre": "Juan",
+  "apellido": "Pérez",
+  "requiere_tablet": true,
+  "asignacion_del_dispositivo": {
+    "codigo_de_tablet": "TBL-00123",
+    "usuario_ha_recibido_tablet": true,
+    "fecha_de_entrega_del_activo": "2024-01-20"
+  },
+  "devolucion_del_dispositivo": {
+    "usuario_ha_devuelto_tablet": false,
+    "fecha_de_devolucion_del_activo": null,
+    "observaciones": "No ha devuelto la tablet aún."
+  },
+  "requiere_recarga": true,
+  "asignacion_de_recarga": {
+    "aplica_para_recarga": true,
+    "estado_de_la_recarga": "Exitosa",
+    "cantidad_de_recargas_recibidas": 2,
+    "observaciones": "Recargas realizadas según lo programado."
+  },
+  "estados_por_nivel": [
+    {
+      "nivel": "Nivel 1: Introducción",
+      "estado_del_beneficiario": "Aprobado"
+    },
+    {
+      "nivel": "Nivel 2: Avanzado",
+      "estado_del_beneficiario": "En Proceso"
+    }
+  ],
+  "grupo_asignado_por_nivel": [
+    {
+      "nivel": "Nivel 1: Introducción",
+      "grupo_del_beneficiario": "Grupo A"
+    },
+    {
+      "nivel": "Nivel 2: Avanzado",
+      "grupo_del_beneficiario": "Grupo B"
+    }
+  ],
+  "total_sesiones_presenciales": 5,
+  "total_sesiones_virtuales": 10,
+  "total_asistencias_sincronicas": 8,
+  "activo_inactivo_en_iniciativa": "Activo",
+  "observacion": "El beneficiario ha mostrado un buen rendimiento general.",
+  "iniciativa": "Curso de Desarrollo Web",
+  "aliado": "Aliado XYZ",
+  "municipio_de_despliegue": "Medellín",
+  "departamento": "Antioquia",
+  "telefono": "3101234567",
+  "año_cohorte": 2024,
+  "fase": "Fase 1"
+}
