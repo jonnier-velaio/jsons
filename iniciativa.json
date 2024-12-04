@@ -9,5 +9,73 @@
   "estado_general": 85,
   "duplica_curso": true,
   "equipo_responsable": "Equipo de Innovación Educativa",
-  "promedio_de_asistencia_para_aprobación": 75
+  "promedio_de_asistencia_para_aprobación": 75,
+  "niveles_académicos": [
+    {
+      "id": "nivel-001",
+      "nombre_del_nivel": "Nivel 1: Introducción",
+      "fecha_de_inicio_del_nivel": "2024-01-15",
+      "fecha_de_fin_del_nivel": "2024-02-15"
+    },
+    {
+      "id": "nivel-002",
+      "nombre_del_nivel": "Nivel 2: Avanzado",
+      "fecha_de_inicio_del_nivel": "2024-02-16",
+      "fecha_de_fin_del_nivel": "2024-03-30"
+    }
+  ],
+  "componentes_académicos": [
+    {
+      "id": "componente-001",
+      "nivel_al_que_esta_asociado": "nivel-001",
+      "cantidad_de_tablets_disponibles": 50,
+      "numero_maximo_de_recargas_por_beneficiario": 5,
+      "fecha_de_inicio_del_componente": "2024-01-15",
+      "fecha_de_fin_del_componente": "2024-02-15",
+      "porcentaje_aprobacion_minima": 70,
+      "porcentaje_aprobacion_maxima": 100,
+      "minimo_de_actividades_para_aprobacion": 8,
+      "total_de_actividades_por_tipo_de_actividad": 15,
+      "componente_requerido": true,
+      "ponderado_del_componente": 85,
+      "observaciones": "Componente introductorio básico"
+    },
+    {
+      "id": "componente-002",
+      "nivel_al_que_esta_asociado": "nivel-002",
+      "cantidad_de_tablets_disponibles": 30,
+      "numero_maximo_de_recargas_por_beneficiario": 4,
+      "fecha_de_inicio_del_componente": "2024-02-16",
+      "fecha_de_fin_del_componente": "2024-03-30",
+      "porcentaje_aprobacion_minima": 75,
+      "porcentaje_aprobacion_maxima": 100,
+      "minimo_de_actividades_para_aprobacion": 10,
+      "total_de_actividades_por_tipo_de_actividad": 20,
+      "componente_requerido": true,
+      "ponderado_del_componente": 90,
+      "observaciones": "Componente avanzado con retos"
+    }
+  ],
+  "actividades": [
+    {
+      "id": "actividad-001",
+      "nivel_al_que_esta_asociado": "nivel-001",
+      "componentes_al_que_esta_asociado": "componente-001",
+      "origen_del_dato": ["Actividad 1", "Video explicativo"],
+      "tipo_de_actividad": "Teórica",
+      "ponderado_de_la_actividad": 70,
+      "fecha_de_inicio": "2024-01-15",
+      "fecha_de_fin": "2024-02-15"
+    },
+    {
+      "id": "actividad-002",
+      "nivel_al_que_esta_asociado": "nivel-002",
+      "componentes_al_que_esta_asociado": "componente-002",
+      "origen_del_dato": ["Actividad 2", "Proyecto final"],
+      "tipo_de_actividad": "Práctica",
+      "ponderado_de_la_actividad": 90,
+      "fecha_de_inicio": "2024-02-16",
+      "fecha_de_fin": "2024-03-30"
+    }
+  ]
 }
